@@ -1,0 +1,18 @@
+[package]
+authors = ["Henrique Azank dos Santos <henriqueazank@gmail.com>"]
+name = "ratatui_tests"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+
+[[bin]]
+name = "hello-ratatui"
+path = "src/bin/hello_ratatui.rs"
+
+[lib]
+name = "ratatui_tests"
+path = "src/lib.rs"
+
+[dependencies]
+ratatui = { version = "0.29.0", features = ["all-widgets"] }
+
