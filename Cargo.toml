@@ -9,6 +9,11 @@ license = "MIT"
 name = "hello-ratatui"
 path = "src/bin/hello_ratatui.rs"
 
+[[bin]]
+name = "counter-app"
+path = "src/bin/counter.rs"
+
+
 [lib]
 name = "ratatui_tests"
 path = "src/lib.rs"
