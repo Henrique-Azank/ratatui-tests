@@ -14,5 +14,7 @@ name = "ratatui_tests"
 path = "src/lib.rs"
 
 [dependencies]
+color-eyre = "0.6.5"
+crossterm = "0.29.0"
 ratatui = { version = "0.29.0", features = ["all-widgets"] }
 
